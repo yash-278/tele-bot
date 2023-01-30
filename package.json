@@ -1,0 +1,24 @@
+{
+  "name": "tele-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc -p ./tsconfig.json && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "googlethis": "^1.7.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "typescript": "^4.9.4",
+    "urban-dictionary": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.57.6",
+    "@types/urban-dictionary": "^3.0.0"
+  }
+}
